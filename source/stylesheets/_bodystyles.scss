@@ -53,7 +53,7 @@ body{
 }
 
 .left-backpack, .right-backpack{
-  max-width: 300px;
+  max-width: 500px;
   height: auto;
   position: relative;
 
@@ -82,54 +82,53 @@ body{
 }
 @media all and (max-width: 1399px) and (min-width: 900px){
   .backpacks{
-    top: -1256px;
+    top: -1300px;
   }
 }
 @media all and (max-width: 899px) and (min-width: 770px){
   .backpacks{
-    top: -1256px;
+    top: -1276px;
   }
 }
 @media all and (max-width: 769px) and (min-width: 641px){
   .backpacks{
-    top: -1256px;
+    top: -1300px;
   }
 }
 @media all and (max-width: 640px) and (min-width: 620px){
   .backpacks{
-    top: -1225px;
+    top: -1300px;
   }
 }
 @media all and (max-width: 620px) and (min-width: 520px){
   .backpacks{
-    top: -1180px;
+    top: -1300px;
   }
   .left-backpack, .right-backpack{
-    max-width: 220px;
   } 
 }
 @media all and (max-width: 520px) and (min-width: 513px){
   .backpacks{
-    top: -1180px;
+    top: -1300px;
+    left: -50px;
   }
   .left-backpack, .right-backpack{
-    max-width: 220px;
   } 
 }
 @media all and (max-width: 513px) and (min-width: 450px){
   .backpacks{
-    top: -1200px;
+    top: -1310px;
+    left: -50px;
   }
   .left-backpack, .right-backpack{
-    max-width: 220px;
   } 
 }
 @media all and (max-width: 450px) and (min-width: 0px){
   .backpacks{
-    top: -1200px;
+    top: -1300px;
   }
   .left-backpack, .right-backpack{
-    max-width: 180px;
+    max-width: 250px;
   } 
 }
 .prize{
